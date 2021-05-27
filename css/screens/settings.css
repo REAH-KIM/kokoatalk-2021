@@ -1,0 +1,31 @@
+.setting-screen {
+  -top: 50px;
+}
+
+.settings__setting {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-list:first-child {
+  padding-top: 85px;
+}
+.settings__setting:nth-child(3),
+.settings__setting:nth-child(11) {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.settings__setting:last-child {
+  margin-bottom: 75px;
+}
+.settings__setting i {
+  width: 18px;
+  margin-right: 20px;
+  color: var(--almost-black);
+}
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
