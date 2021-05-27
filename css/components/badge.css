@@ -9,3 +9,13 @@
   color: white;
   font-weight: 600;
 }
+
+.dot {
+  background-color: var(--redbrown);
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
