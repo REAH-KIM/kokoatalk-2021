@@ -1,6 +1,7 @@
 .alt-header {
   background-color: white;
   position: fixed;
+  top: 0;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -32,6 +33,6 @@
   display: flex;
   justify-content: flex-end;
 }
-.alt-header__column span {
-  margin-left: 15px;
+.alt-header__column span:last-child {
+  margin-left: 20px;
 }
